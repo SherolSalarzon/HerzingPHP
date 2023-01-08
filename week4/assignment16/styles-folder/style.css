@@ -1,0 +1,62 @@
+/*Sherol Salarzon*/
+
+header > nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+  nav > div {
+    font-size: 16;
+    text-align: center;
+    margin: 25px;
+    background: whitesmoke;
+  }
+
+body {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.form {
+  /* center items vertically, in this case */   
+  width: 450px;
+  min-height: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form .field {
+  display: block;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+  input {
+    height: 25px;
+    width: 250px;
+  }
+
+  select {
+    width: 250px;
+    height: 25px;
+  } 
+  .text {
+    color: black;
+    font-size: 16px;
+
+  }
+
+#terms {
+  width: 16px; 
+}
+  label {
+    font-size: 18px;
+  }
+

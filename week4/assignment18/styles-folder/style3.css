@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+		background: whitesmoke;
+}
+
+.navbar {
+	min-height: 8vh;
+
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto," "Open Sans," "Montserrat," and "Lato.";
+  font-size: 28px;
+}
+
+.container {
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	justify-self: center;
+
+}

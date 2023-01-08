@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Hello My First Blog</title>
+    <link>https://www.herzing.ca/</link>
+    <description>This is just a temporary blog</description>
+    <item>
+      <title>My Latest Article</title>
+      <description>A summary of my latest article</description>
+    </item>
+    <!-- Add additional items here -->
+  </channel>
+</rss>
