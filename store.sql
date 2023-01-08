@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jan 08, 2023 at 12:33 PM
+-- Generation Time: Jan 08, 2023 at 01:23 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -20,21 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `store`
 --
-
--- --------------------------------------------------------
-
---
--- Table structure for table `rsstable`
---
-
-DROP TABLE IF EXISTS `rsstable`;
-CREATE TABLE IF NOT EXISTS `rsstable` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `title` text NOT NULL,
-  `descr` text,
-  `details` text NOT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+CREATE DATABASE IF NOT EXISTS `store` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `store`;
 
 -- --------------------------------------------------------
 
